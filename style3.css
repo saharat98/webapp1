@@ -1,0 +1,86 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background:  url(bg.jpg) no-repeat;
+	background-size: cover;
+	text-align:center;
+}
+.login-box{
+	width: 180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white
+	
+
+	
+}
+.login-box h1{
+	font: left;
+	font-size: 40px;
+	border-bottom: 6px solid #9e6b00eb;
+
+	margin-bottom: 30px;
+	padding: 13px 0
+
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 2px solid #9e6b00eb;
+
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border:none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin:0 10px;
+
+}
+
+.btn{
+	width: 100%;
+	background: none;
+	border:2px solid #9e6b00eb;
+
+	color:white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: 12px 0;
+	margin-bottom: 10px;
+}
+
+.button{
+	width: 100%;
+	background: none;
+	border:2px solid #9e6b00eb;
+
+	color:white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: 12px 0;
+
+}
+.Login_Container{
+	border-radius:25px;
+	border:6px solid #9e6b00eb;
+	width:350px;
+	height:400px;
+	margin-top:200px;
+	margin-left:590px;
+}
